@@ -7,3 +7,4 @@ sci-astronomy/stellarium:media - Enable sound and video support
 sci-astronomy/stellarium:stars - Install extra star catalogs
 x11-misc/shutter:drawing - Enables drawing tool
 x11-misc/shutter:upload - Enables image hostings uploading
+x11-terms/terminator:libnotify - Enables desktop notifications viadev-python/notify-python
