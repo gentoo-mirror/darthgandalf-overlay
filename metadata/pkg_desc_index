@@ -1,6 +1,6 @@
 app-i18n/fbterm 1.7_p20190503: Fast terminal emulator for the Linux framebuffer
 app-misc/open-corsair-link 9999: Shows stats of Corsair PSU, controls its fan
-app-misc/openrgb 0.1: Configuration utility for RGB lights supporting motherboards, RAM, & peripherals
+app-misc/openrgb 0.1 9999: Configuration utility for RGB lights supporting motherboards, RAM, & peripherals
 games-engines/openmw 9999: Open source reimplementation of TES III: Morrowind
 media-sound/scream 3.4_p20200410: Plays sound received from network or from a QEMU Windows VM
 sci-astronomy/stellarium 0.20.1: 3D photo-realistic skies in real time
