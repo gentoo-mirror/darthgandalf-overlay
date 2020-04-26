@@ -1,14 +1,14 @@
-BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 filecaps? ( sys-libs/libcap )
-DEFINED_PHASES=configure install postinst prepare
-DEPEND=media-libs/fontconfig media-libs/freetype:2 gpm? ( sys-libs/gpm ) video_cards_vesa? ( dev-libs/libx86 ) >=sys-libs/ncurses-6.1 virtual/pkgconfig
+BDEPEND=virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 filecaps? ( sys-libs/libcap )
+DEFINED_PHASES=compile configure install postinst prepare
+DEPEND=media-libs/fontconfig media-libs/freetype:2 >=sys-libs/ncurses-6.1 gpm? ( sys-libs/gpm ) video_cards_vesa? ( dev-libs/libx86 )
 DESCRIPTION=Fast terminal emulator for the Linux framebuffer
 EAPI=7
 HOMEPAGE=https://github.com/gjedeer/fbterm
 IUSE=gpm video_cards_vesa +filecaps
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=GPL-2
-RDEPEND=media-libs/fontconfig media-libs/freetype:2 gpm? ( sys-libs/gpm ) video_cards_vesa? ( dev-libs/libx86 ) >=sys-libs/ncurses-6.1 filecaps? ( sys-libs/libcap )
+RDEPEND=filecaps? ( sys-libs/libcap )
 SLOT=0
 SRC_URI=https://github.com/gjedeer/fbterm/archive/ccea326dd73f4d6b6442fde7ba7c2be9cd35c6df.tar.gz -> fbterm-1.7_p20190503.tar.gz
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	fcaps	da689a8e04bbbb3518888ff668fee45b	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=59b304fef4a0b5edd32fef7d7579c641
+_md5_=8271e636e5ad14683c7cb6d7f692bc54
