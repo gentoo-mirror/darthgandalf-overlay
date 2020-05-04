@@ -5,4 +5,3 @@ games-engines/openmw 9999: Open source reimplementation of TES III: Morrowind
 media-sound/scream 3.5 9999: Plays sound received from network or from a QEMU Windows VM
 sci-astronomy/stellarium 0.20.1: 3D photo-realistic skies in real time
 x11-misc/shutter 0.94.3-r1: Feature-rich screenshot program
-x11-terms/terminator 1.92: Multiple GNOME terminals in one window
