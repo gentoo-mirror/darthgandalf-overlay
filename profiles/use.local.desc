@@ -2,8 +2,5 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-games-engines/openmw:devtools - Install development tools like bsatool, esmtool and opencs.
-sci-astronomy/stellarium:media - Enable sound and video support
-sci-astronomy/stellarium:stars - Install extra star catalogs
 x11-misc/shutter:drawing - Enables drawing tool
 x11-misc/shutter:upload - Enables image hostings uploading
