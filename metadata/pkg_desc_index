@@ -1,7 +1,4 @@
 app-misc/open-corsair-link 9999: Shows stats of Corsair PSU, controls its fan
 app-misc/openrgb 0.1 0.2 9999: Configuration utility for RGB lights supporting motherboards, RAM, & peripherals
-dev-games/openscenegraph-openmw 3.4_p20200425: OpenMW-specific fork of OpenSceneGraph
-dev-games/recastnavigation 1.5.1_p20200511: Navigation mesh construction toolset for games
-games-engines/openmw 0.45.0 0.46.0 9999: Open source reimplementation of TES III: Morrowind
-media-sound/scream 3.5 9999: Plays sound received from network or from a QEMU Windows VM
+media-sound/scream 3.6 9999: Plays sound received from network or from a QEMU Windows VM
 net-p2p/nuxhash 1.0.0_beta2_p20191013: NiceHash cryptocurrency mining client for Linux
