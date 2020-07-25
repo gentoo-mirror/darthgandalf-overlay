@@ -3,13 +3,13 @@
 
 EAPI=7
 
-inherit desktop qmake-utils
+inherit desktop qmake-utils udev
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://gitlab.com/CalcProgrammer1/OpenRGB"}
 else
-	SRC_URI="https://gitlab.com/CalcProgrammer1/OpenRGB/uploads/c59231aa792166779b2b41fe3033766c/OpenRGB-release_${PV}.tar.gz"
+	SRC_URI="https://gitlab.com/CalcProgrammer1/OpenRGB/-/archive/release_${PV}/OpenRGB-release_${PV}.tar.bz2"
 	S="${WORKDIR}/OpenRGB-release_${PV}"
 	KEYWORDS="~amd64 ~x86"
 fi
@@ -19,7 +19,9 @@ HOMEPAGE="https://gitlab.com/CalcProgrammer1/OpenRGB"
 LICENSE="GPL-2"
 SLOT="0"
 
+BDEPEND="virtual/pkgconfig"
 DEPEND="
+	dev-libs/hidapi
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtwidgets:5
@@ -35,6 +37,7 @@ src_install() {
 	dobin OpenRGB
 	doicon qt/OpenRGB.png
 	make_desktop_entry OpenRGB OpenRGB OpenRGB
+	udev_dorules 60-openrgb.rules
 }
 
 pkg_postinst() {
