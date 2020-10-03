@@ -1,5 +1,4 @@
 app-misc/liquidctl 1.4.1: Cross-platform tool and drivers for liquid coolers and other devices
-app-misc/open-corsair-link 9999: Shows stats of Corsair PSU, controls its fan
 dev-python/hidapi 0.9.0_p3: A Cython interface to the hidapi
 media-sound/scream 3.6 9999: Plays sound received from network or from a QEMU Windows VM
 net-p2p/nuxhash 1.0.0_beta2_p20191013: NiceHash cryptocurrency mining client for Linux
