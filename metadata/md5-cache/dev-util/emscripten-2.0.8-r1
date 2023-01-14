@@ -4,12 +4,12 @@ DESCRIPTION=Emscripten is a complete compiler toolchain to WebAssembly, using LL
 EAPI=7
 HOMEPAGE=https://emscripten.org
 INHERIT=python-single-r1
-IUSE=python_single_target_python3_8 python_single_target_python3_9
+IUSE=+python_single_target_python3_9
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=dev-util/binaryen net-libs/nodejs sys-devel/clang:12[llvm_targets_WebAssembly] >=sys-devel/lld-12 virtual/jre
 RESTRICT=network-sandbox test
 SLOT=0
 SRC_URI=https://github.com/emscripten-core/emscripten/archive/2.0.8.tar.gz -> emscripten-2.0.8.tar.gz
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	7870d60e8b98856ef02d33397fd5ec0f	python-single-r1	75118e916668a74c660a13b0ecb22562
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	a1a985ddd8795a8634b4b7f820b93143	python-single-r1	75118e916668a74c660a13b0ecb22562
 _md5_=9ac523941a738df0af19a5e7e2fdb720
