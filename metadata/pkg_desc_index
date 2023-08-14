@@ -1,4 +1,3 @@
 app-portage/sqfssync 0.1.1: Portage plugin to download and mount latest SquashFS snapshot
 dev-cpp/argh 1.3.1_p20210711 1.3.2: A minimalist argument handler for C++
-dev-util/binaryen 98 102: Compiler and toolchain infrastructure library for WebAssembly
 net-vpn/netmaker-netclient-bin 0.16.1: Netmaker makes networks with WireGuard
