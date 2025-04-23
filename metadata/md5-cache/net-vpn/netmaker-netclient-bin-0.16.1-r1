@@ -9,5 +9,5 @@ LICENSE=SSPL-1
 RDEPEND=net-vpn/wireguard-tools[wg-quick]
 SLOT=0
 SRC_URI=amd64? ( https://github.com/gravitl/netmaker/releases/download/v0.16.1/netclient -> netmaker-netclient-bin-0.16.1-amd64 ) arm? ( https://github.com/gravitl/netmaker/releases/download/v0.16.1/netclient-arm7 -> netmaker-netclient-bin-0.16.1-arm ) arm64? ( https://github.com/gravitl/netmaker/releases/download/v0.16.1/netclient-arm64 -> netmaker-netclient-bin-0.16.1-arm64 )
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=13fe228c644311159b0366a3dc1fa6ce
